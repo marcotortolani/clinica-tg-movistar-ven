@@ -244,7 +244,7 @@ const SyncSection = ({
     numbersCollected: string[]
   }) {
     const ENDPOINT =
-      'https://test.moob.club:8005/movistar/venezuela/app-escuelas/'
+      'https://test.moob.club:8005/movistar/venezuela/clinica-team-gamers/'
 
     // let res, data
 
@@ -255,7 +255,7 @@ const SyncSection = ({
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name: 'Escuela',
+          name: 'Clinica Movistar',
           data: [
             {
               date,
